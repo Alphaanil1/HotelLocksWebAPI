@@ -13,6 +13,7 @@ namespace HotelLock.DAL.Repositories
     {
         public List<BranchDetails> GetAllBranchDetails(bool IsLoginForm)
         {
+
             DBConnection objDBConnection = new DBConnection();
             try
             {
